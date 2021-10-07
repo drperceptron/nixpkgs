@@ -1,6 +1,6 @@
 { lib, stdenv, itstool, fetchurl, gdk-pixbuf, adwaita-icon-theme
 , telepathy-glib, gjs, meson, ninja, gettext, telepathy-idle, libxml2, desktop-file-utils
-, pkg-config, gtk3, glib, libsecret, libsoup, webkitgtk, gobject-introspection, appstream-glib
+, pkg-config, gtk4, gtk3, glib, libsecret, libsoup, webkitgtk, gobject-introspection, appstream-glib
 , gnome, wrapGAppsHook, telepathy-logger, gspell, gsettings-desktop-schemas }:
 
 stdenv.mkDerivation rec {
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   ];
 
   buildInputs = [
-    gtk3 glib adwaita-icon-theme gsettings-desktop-schemas
+    gtk4 gtk3 glib adwaita-icon-theme gsettings-desktop-schemas
     telepathy-glib telepathy-logger gjs gspell gdk-pixbuf libsecret libsoup webkitgtk
   ];
 
