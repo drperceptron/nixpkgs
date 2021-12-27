@@ -30560,6 +30560,8 @@ with pkgs;
 
   gshhg-gmt = callPackage ../applications/gis/gmt/gshhg.nix { };
 
+  gslist = callPackage ../games/gslist { };
+
   qtads = qt5.callPackage ../games/qtads { };
 
   gtetrinet = callPackage ../games/gtetrinet {
