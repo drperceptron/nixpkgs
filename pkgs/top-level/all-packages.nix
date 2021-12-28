@@ -31240,6 +31240,8 @@ with pkgs;
   bloodspilot-server = callPackage ../games/xpilot/bloodspilot-server.nix {};
   bloodspilot-client = callPackage ../games/xpilot/bloodspilot-client.nix {};
 
+  xqf = callPackage ../games/xqf { };
+
   xskat = callPackage ../games/xskat { };
 
   xsnow = callPackage ../games/xsnow { };
