@@ -30841,6 +30841,8 @@ with pkgs;
 
   qqwing = callPackage ../games/qqwing { };
 
+  qstat = callPackage ../games/qstat { };
+
   quake3wrapper = callPackage ../games/quake3/wrapper { };
 
   quake3demo = quake3wrapper {
