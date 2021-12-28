@@ -8282,6 +8282,8 @@ in {
 
   rachiopy = callPackage ../development/python-modules/rachiopy { };
 
+  radian = callPackage ../development/python-modules/radian { };
+
   radicale_infcloud = callPackage ../development/python-modules/radicale_infcloud { };
 
   radio_beam = callPackage ../development/python-modules/radio_beam { };
